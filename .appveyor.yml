@@ -1,0 +1,24 @@
+version: "{build}"
+
+clone_folder: c:\gopath\src\github.com\philippgille\apiomat-cli
+
+# GitHub specific alternative to `clone_depth: <number>`
+shallow_clone: true
+
+environment:
+  GOPATH: c:\gopath
+
+install:
+  - go version
+  - go env
+  # Get all dependencies
+  - go get -d .\...
+  # Dependencies in test seem to be excluded from the previous get
+  - go get github.com/go-test/deep
+
+build_script:
+  # Use an explicit output file to have the same behavior as in Travis CI
+  - go build -o aom\aom.exe github.com\philippgille\apiomat-cli\aom
+
+test_script:
+  - echo todo
