@@ -1,5 +1,7 @@
 # apiomat-cli
 
+[![Build Status](https://travis-ci.org/philippgille/apiomat-cli.svg?branch=master)](https://travis-ci.org/philippgille/apiomat-cli) [![Build status](https://ci.appveyor.com/api/projects/status/3g9bdop31x0q2kmy/branch/master?svg=true)](https://ci.appveyor.com/project/philippgille/apiomat-cli/branch/master) [![Go Report Card](https://goreportcard.com/badge/github.com/philippgille/apiomat-cli)](https://goreportcard.com/report/github.com/philippgille/apiomat-cli) [![GitHub Releases](https://img.shields.io/github/release/philippgille/apiomat-cli.svg)](https://github.com/philippgille/apiomat-cli/releases)
+
 `aom` - CLI for ApiOmat, written in Go
 
 Under construction!
